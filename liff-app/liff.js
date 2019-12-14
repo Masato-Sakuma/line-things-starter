@@ -37,7 +37,7 @@ function handlerToggleLed() {
 
 function uiToggleLedButton(state) {
     const el = document.getElementById("btn-led-toggle");
-    el.innerText = state ? "Switch LED OFF" : "Switch LED ON";
+    el.innerText = state ? "Switch MOTOR OFF" : "Switch MOTOR ON";
 
     if (state) {
       el.classList.add("led-on");
